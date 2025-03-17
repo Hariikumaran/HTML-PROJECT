@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College List Management System</title>
+</head>
+<body>
+
+    <center>
+        <h1>🎓 Welcome to the College List Management System</h1>
+        <p>Manage and explore colleges, enroll as a student, or log in as an admin.</p>
+    </center>
+
+    <hr>
+
+    <h2>🔗 Quick Navigation</h2>
+    <table border="1" width="100%" cellpadding="10">
+        <tr>
+            <th>Feature</th>
+            <th>Go To</th>
+        </tr>
+        <tr>
+            <td>📋 View Colleges</td>
+            <td><a href="colleges.html">Click Here</a></td>
+        </tr>
+        <tr>
+            <td>🎯 Filter Colleges</td>
+            <td><a href="filter.html">Click Here</a></td>
+        </tr>
+        <tr>
+            <td>📝 Student Enrollment</td>
+            <td><a href="enroll.html">Click Here</a></td>
+        </tr>
+        <tr>
+            <td>📞 Contact Us</td>
+            <td><a href="contact.html">Click Here</a></td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <h2>🔐 Login Options</h2>
+    <ul>
+        <li><a href="user-login.html">👨‍🎓 Student / Faculty Login</a></li>
+        <li><a href="admin-login.html">🔑 Admin Login</a></li>
+    </ul>
+
+    <hr>
+
+    <h2>🏫 Select a College</h2>
+    <form action="" method="GET" onsubmit="window.location.href = document.getElementById('college').value; return false;">
+        <label for="college">Choose a College:</label>
+        <select id="college" name="college" required>
+            <option value="" disabled selected>Select a college</option>
+            <option value="harvard.html">Harvard University</option>
+            <option value="stanford.html">Stanford University</option>
+            <option value="mit.html">MIT</option>
+            <option value="oxford.html">Oxford University</option>
+            <option value="cambridge.html">Cambridge University</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Visit College">
+    </form>
+
+    <hr>
+
+    <h2>📩 Quick Contact Form</h2>
+    <form action="contact-success.html" method="GET">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required> <br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required> <br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="40" required></textarea> <br><br>
+
+        <input type="submit" value="Send Message">
+    </form>
+
+    <hr>
+
+    <h2>❓ Frequently Asked Questions (FAQ)</h2>
+    <details>
+        <summary>📌 How do I enroll in a college?</summary>
+        <p>Click on the "Enroll" option and fill in the required details.</p>
+    </details>
+    <details>
+        <summary>📌 How can I contact the administration?</summary>
+        <p>Go to the "Contact Us" page and send a message using the form provided.</p>
+    </details>
+    <details>
+        <summary>📌 Is this system for students and faculty?</summary>
+        <p>Yes, students can enroll and faculty can manage college details.</p>
+    </details>
+
+    <hr>
+
+    <center>
+        <h4>&copy; 2025 College List Management System | All Rights Reserved</h4>
+    </center>
+
+</body>
+</html>

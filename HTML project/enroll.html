@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Enrollment - College List Management System</title>
+</head>
+<body>
+
+    <center>
+        <h1>📝 Student Enrollment</h1>
+        <p>Fill out the form to enroll in a college.</p>
+        <hr>
+    </center>
+
+    <h2>📌 Enrollment Form</h2>
+    <form action="enrollment-success.html" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required> <br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required> <br><br>
+
+        <label for="college">Choose College:</label>
+        <select id="college" name="college">
+            <option value="harvard">Harvard University</option>
+            <option value="stanford">Stanford University</option>
+            <option value="mit">MIT</option>
+            <option value="oxford">Oxford University</option>
+            <option value="cambridge">Cambridge University</option>
+        </select>
+        <br><br>
+
+        <label for="course">Select Course:</label>
+        <input type="text" id="course" name="course" required> <br><br>
+
+        <input type="submit" value="Enroll Now">
+    </form>
+
+    <hr>
+
+    <center>
+        <p>🔹 <a href="index.html">🏠 Back to Home</a></p>
+        <h4>&copy; 2025 College List Management System | All Rights Reserved</h4>
+    </center>
+
+</body>
+</html>

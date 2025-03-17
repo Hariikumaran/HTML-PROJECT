@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Filter Colleges - College List Management System</title>
+</head>
+<body>
+
+    <center>
+        <h1>🎯 Filter Colleges</h1>
+        <p>Refine your search based on category, ranking, or country.</p>
+        <hr>
+    </center>
+
+    <h2>📌 Filter Options</h2>
+    <form action="filter-results.html" method="GET">
+        <label for="location">Select Country:</label>
+        <select id="location" name="location">
+            <option value="usa">USA</option>
+            <option value="uk">UK</option>
+            <option value="canada">Canada</option>
+            <option value="australia">Australia</option>
+        </select>
+        <br><br>
+
+        <label for="ranking">Select Ranking:</label>
+        <select id="ranking" name="ranking">
+            <option value="top10">Top 10</option>
+            <option value="top50">Top 50</option>
+            <option value="top100">Top 100</option>
+        </select>
+        <br><br>
+
+        <input type="submit" value="Filter Colleges">
+    </form>
+
+    <hr>
+
+    <center>
+        <p>🔹 <a href="index.html">🏠 Back to Home</a></p>
+        <h4>&copy; 2025 College List Management System | All Rights Reserved</h4>
+    </center>
+
+</body>
+</html>
