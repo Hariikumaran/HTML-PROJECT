@@ -1,1 +1,1 @@
-# HTML-PROJECT
+# HTML-PROJECT College List Management System
